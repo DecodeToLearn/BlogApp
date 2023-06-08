@@ -3,6 +3,7 @@ const app = express();
 const path = require("path");
 // Set View engine global variable
 app.set("view engine", "ejs");
+
 // Include custome Route module
 const userRoute = require("./routes/user");
 const adminRoute = require("./routes/admin");
